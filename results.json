@@ -1,0 +1,115 @@
+{
+  "t_test": {
+    "n_summer": 28653,
+    "n_winter": 29071,
+    "mean_summer": 74.472,
+    "mean_winter": 36.488,
+    "mean_diff": 37.984,
+    "t_stat": 524.527,
+    "df": 51960.4,
+    "p_value": 0.0,
+    "ci95": [
+      37.842,
+      38.126
+    ],
+    "cohen_d": 4.356
+  },
+  "anova": {
+    "F": 972.64,
+    "p_value": 0.0,
+    "eta_sq": 0.0248,
+    "means": {
+      "Winter": 12.38,
+      "Spring": 11.75,
+      "Summer": 9.81,
+      "Autumn": 10.86
+    }
+  },
+  "chi_square": {
+    "chi2": 2311.046,
+    "df": 3,
+    "p_value": 0.0,
+    "cramers_v": 0.142,
+    "observed": {
+      "LowVis (<3mi)": {
+        "Winter": 3611,
+        "Spring": 3275,
+        "Summer": 947,
+        "Autumn": 1253
+      },
+      "Normal (\u22653mi)": {
+        "Winter": 25460,
+        "Spring": 27403,
+        "Summer": 27706,
+        "Autumn": 24889
+      }
+    },
+    "low_vis_rate": {
+      "Winter": 12.42,
+      "Spring": 10.68,
+      "Summer": 3.31,
+      "Autumn": 4.79
+    }
+  },
+  "correlation": {
+    "pearson_r": 0.1242,
+    "p_value": 1.4819684441372705e-69,
+    "n": 20000
+  },
+  "tukey": [
+    {
+      "group1": "Autumn",
+      "group2": "Spring",
+      "meandiff": 0.8889,
+      "p-adj": 0.0,
+      "lower": 0.7572,
+      "upper": 1.0206,
+      "reject": true
+    },
+    {
+      "group1": "Autumn",
+      "group2": "Summer",
+      "meandiff": -1.0518,
+      "p-adj": 0.0,
+      "lower": -1.1856,
+      "upper": -0.918,
+      "reject": true
+    },
+    {
+      "group1": "Autumn",
+      "group2": "Winter",
+      "meandiff": 1.5198,
+      "p-adj": 0.0,
+      "lower": 1.3865,
+      "upper": 1.6532,
+      "reject": true
+    },
+    {
+      "group1": "Spring",
+      "group2": "Summer",
+      "meandiff": -1.9407,
+      "p-adj": 0.0,
+      "lower": -2.0692,
+      "upper": -1.8122,
+      "reject": true
+    },
+    {
+      "group1": "Spring",
+      "group2": "Winter",
+      "meandiff": 0.6309,
+      "p-adj": 0.0,
+      "lower": 0.5029,
+      "upper": 0.759,
+      "reject": true
+    },
+    {
+      "group1": "Summer",
+      "group2": "Winter",
+      "meandiff": 2.5716,
+      "p-adj": 0.0,
+      "lower": 2.4414,
+      "upper": 2.7018,
+      "reject": true
+    }
+  ]
+}

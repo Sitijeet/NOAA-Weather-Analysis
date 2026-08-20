@@ -1,0 +1,7 @@
+group1,group2,meandiff,p-adj,lower,upper,reject
+Autumn,Spring,0.8889,0.0,0.7572,1.0206,True
+Autumn,Summer,-1.0518,0.0,-1.1856,-0.918,True
+Autumn,Winter,1.5198,0.0,1.3865,1.6532,True
+Spring,Summer,-1.9407,0.0,-2.0692,-1.8122,True
+Spring,Winter,0.6309,0.0,0.5029,0.759,True
+Summer,Winter,2.5716,0.0,2.4414,2.7018,True
